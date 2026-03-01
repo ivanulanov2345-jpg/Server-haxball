@@ -6,6 +6,10 @@
   "main": "railway-runner.js",
   "scripts": {
     "start": "node railway-runner.js",
+    "postinstall": "npx playwright install --with-deps chromium",
+    "check": "node --check haxball-todo-en-uno.js && node --check railway-runner.js"
+  },
+    "start": "node railway-runner.js",
     "check": "node --check haxball-todo-en-uno.js && node --check railway-runner.js"
   },
   "engines": {
@@ -15,3 +19,4 @@
     "playwright": "^1.55.0"
   }
 }
+
