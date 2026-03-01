@@ -75,3 +75,4 @@ Si Railway no logra abrir Chromium, reintenta deploy. Si persiste, usa una image
 npm run check
 ```
 
+
