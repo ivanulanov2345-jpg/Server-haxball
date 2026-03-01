@@ -1,0 +1,17 @@
+{
+  "name": "haxball-railway-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Haxball Headless bot runner for Railway using Node.js + Playwright",
+  "main": "railway-runner.js",
+  "scripts": {
+    "start": "node railway-runner.js",
+    "check": "node --check haxball-todo-en-uno.js && node --check railway-runner.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
